@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/categori.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./pastroy-img/image.png">
+    <title>Postroy Categori</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="header-nav">
+                <div class="logo-number">
+                    <img src="pastroy-img/Group 2.svg" alt="logo">
+                    <a href="tel:" class="number">+ 998 (96) 000 00 00</a>
+                </div>
+
+                <div class="header-navigation">
+                    <img class="nav-img" src="pastroy-img/plus.svg" alt="plus">
+                    <img class="nav-img" src="pastroy-img/Info Square.svg" alt="info">
+                    <img id="favorite-tovar" class="nav-img" src="pastroy-img/Stroke 1.svg" alt="star">
+                    <img class="nav-img" src="pastroy-img/accaount.svg" alt="accaount">
+
+                    <select class="laungage-select" onchange="window.location.href = this.value">
+                        <option value="til">Laun</option>
+                        <option value="categori.html">Rus</option>
+                        <option value="categoriENG.html">Eng</option>
+                        <option value="categoriUZ.html">Uz</option>
+                    </select>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section data-aos="fade-up">
+            <div class="container">
+                <div class="catalog-section">
+                    <div class="catalog-select">
+                        <div class="catalog">
+                            <img src="pastroy-img/Chart.svg" alt="Chart">
+                            <p class="catalog-item">Catalog</p>
+                        </div>
+
+                        <select class="location-select">
+                            <option value="tashkent">Tashkent</option>
+                            <option value="tashkent">Andijon</option>
+                            <option value="tashkent">Buxara</option>
+                        </select>
+                    </div>
+
+                    <div class="search">
+                        <input class="search-input" type="text" placeholder="What are you looking for ?">
+                        <img class="search-img" src="pastroy-img/Search.svg" alt="search">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="burger-responsive">
+            <img class="burger" src="pastroy-img/burger.svg" alt="burger">
+            <ul class="res-burger">
+                <li><img class="nav-img" src="pastroy-img/plus.svg" alt="plus"></li>
+                <li><img class="nav-img" src="pastroy-img/Info Square.svg" alt="info"></li>
+                <li><img id="favorite-tovar" class="nav-img" src="pastroy-img/star.svg" alt="star"></li>
+                <li><img class="nav-img" src="pastroy-img/accaount.svg" alt="accaount"></li>
+            </ul>
+        </div>
+
+        <section data-aos="fade-up">
+            <div class="container">
+                <div class="tovarlar">
+                    <div class="tovarlar-item">
+                        <div class="tovar-catalog">
+                            <p class="tovar-item">Repair tools</p>
+                            <button class="tovar-btn"><img src="pastroy-img/arrow-yellow.svg"
+                                    alt="arrow-yellow"></button>
+
+                            <p class="tovar-item">Boards</p>
+                            <button class="tovar-btn"><img src="pastroy-img/arrow-yellow.svg"
+                                    alt="arrow-yellow"></button>
+
+                            <p class="tovar-item">Artificial boards</p>
+                        </div>
+
+                        <div class="tovar-icons">
+                            <img src="pastroy-img/ic_info.svg" alt="icon">
+                            <img src="pastroy-img/ic_sorting_default.svg" alt="icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section data-aos="fade-up">
+            <div class="container">
+                <div class="tovar-information">
+                    <div class="tovarlar-left-card">
+                        <div class="info-tanla">
+                            <p class="info-item">Region</p>
+                            <select class="region-select">
+                                <option value="regiontanla">Select your region</option>
+                                <option value="regiontanla">Tashkent</option>
+                                <option value="regiontanla">Buxoro</option>
+                                <option value="regiontanla">Andijon</option>
+                                <option value="regiontanla">Farg'ona</option>
+                            </select>
+                        </div>
+
+                        <div class="info-tanla">
+                            <p class="info-item">Category</p>
+                            <select class="region-select">
+                                <option value="regiontanla">Choose a Category</option>
+                                <option value="regiontanla">Barriers</option>
+                                <option value="regiontanla">Building materials</option>
+                                <option value="regiontanla">Stairs</option>
+                                <option value="regiontanla">Wood</option>
+                            </select>
+                        </div>
+
+                        <div class="info-tanla">
+                            <p class="info-item">Type</p>
+                            <select class="region-select">
+                                <option value="regiontanla">Select type</option>
+                                <option value="regiontanla">Metal</option>
+                                <option value="regiontanla">Window</option>
+                                <option value="regiontanla">Pipes</option>
+                            </select>
+                        </div>
+
+                        <div class="info-tanla">
+                            <p class="info-item">Payment method</p>
+                            <select class="region-select">
+                                <option value="regiontanla">Choose a payment method</option>
+                                <option value="regiontanla">Cash</option>
+                                <option value="regiontanla">With card</option>
+                            </select>
+                        </div>
+
+                        <form for class="info-form">
+                            <label>Price</label>
+                            <label id="price-input">0</label>
+                            <input value="0" min="0" max="1500000" class="range-input" type="range">
+
+                            <button class="succses-btn">Application</button>
+                        </form>
+                    </div>
+
+                    <div class="all-card">
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section data-aos="fade-up">
+            <div class="container">
+                <h2 class="oxshash-item">Similar products</h2>
+                <div class="tovar-cards">
+                    <div class="card">
+                        <div class="card-images">
+                            <img class="card-img" src="pastroy-img/pic.svg" alt="pic">
+                            <img class="icon-top" src="pastroy-img/icon_top.svg" alt="icon_top">
+                        </div>
+
+                        <div class="card-item">
+                            <p class="card-name">Tiger tile mosaic (8,2x8,2) 25x25</p>
+
+                            <div class="price-star">
+                                <p class="price">1.000.000 som</p>
+
+                                <img class="star" src="pastroy-img/star.svg" alt="star">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-images">
+                            <img class="card-img" src="pastroy-img/pic (1).svg" alt="pic">
+                            <img class="icon-top" src="pastroy-img/icon_top.svg" alt="icon_top">
+                        </div>
+
+                        <div class="card-item">
+                            <p class="card-name">Tiger tile mosaic (8,2x8,2) 25x25</p>
+
+                            <div class="price-star">
+                                <p class="price">1.000.000 som</p>
+
+                                <img class="star" src="pastroy-img/star.svg" alt="star">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-images">
+                            <img class="card-img" src="pastroy-img/pic (2).svg" alt="pic">
+                            <img class="icon-top" src="pastroy-img/icon_top.svg" alt="icon_top">
+                        </div>
+
+                        <div class="card-item">
+                            <p class="card-name">Tiger tile mosaic (8,2x8,2) 25x25</p>
+
+                            <div class="price-star">
+                                <p class="price">1.000.000 som</p>
+
+                                <img class="star" src="pastroy-img/star.svg" alt="star">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-images">
+                            <img class="card-img" src="pastroy-img/pic (3).svg" alt="pic">
+                            <img class="icon-top" src="pastroy-img/icon_top.svg" alt="icon_top">
+                        </div>
+
+                        <div class="card-item">
+                            <p class="card-name">Tiger tile mosaic (8,2x8,2) 25x25</p>
+
+                            <div class="price-star">
+                                <p class="price">1.000.000 som</p>
+
+                                <img class="star" src="pastroy-img/star.svg" alt="star">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-images">
+                            <img class="card-img" src="pastroy-img/pic (4).svg" alt="pic">
+                            <img class="icon-top" src="pastroy-img/icon_top.svg" alt="icon_top">
+                        </div>
+
+                        <div class="card-item">
+                            <p class="card-name">Tiger tile mosaic (8,2x8,2) 25x25</p>
+
+                            <div class="price-star">
+                                <p class="price">1.000.000 som</p>
+
+                                <img class="star" src="pastroy-img/star.svg" alt="star">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-images">
+                            <img class="card-img" src="pastroy-img/pic (5).svg" alt="pic">
+                            <img class="icon-top" src="pastroy-img/icon_top.svg" alt="icon_top">
+                        </div>
+
+                        <div class="card-item">
+                            <p class="card-name">Tiger tile mosaic (8,2x8,2) 25x25</p>
+
+                            <div class="price-star">
+                                <p class="price">1.000.000 som</p>
+
+                                <img class="star" src="pastroy-img/star.svg" alt="star">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-images">
+                            <img class="card-img" src="pastroy-img/pic (6).svg" alt="pic">
+                            <img class="icon-top" src="pastroy-img/icon_top.svg" alt="icon_top">
+                        </div>
+
+                        <div class="card-item">
+                            <p class="card-name">Tiger tile mosaic (8,2x8,2) 25x25</p>
+
+                            <div class="price-star">
+                                <p class="price">1.000.000 som</p>
+
+                                <img class="star" src="pastroy-img/star.svg" alt="star">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-images">
+                            <img class="card-img" src="pastroy-img/pic (7).svg" alt="pic">
+                            <img class="icon-top" src="pastroy-img/icon_top.svg" alt="icon_top">
+                        </div>
+
+                        <div class="card-item">
+                            <p class="card-name">Tiger tile mosaic (8,2x8,2) 25x25</p>
+
+                            <div class="price-star">
+                                <p class="price">1.000.000 som</p>
+
+                                <img class="star" src="pastroy-img/star.svg" alt="star">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <nav class="footer-nav">
+                <ul class="footer-ul">
+                    <li> <a class="footer-a" href="#">Catalog</a></li>
+                    <li> <a class="footer-a" href="#">Favorites</a></li>
+                </ul>
+
+                <ul class="footer-ul">
+                    <li> <a class="footer-a" href="tel:">+ 998 (96) 000 00 00</a></li>
+                    <li> <a class="footer-a" href="#">Amir Temur 77</a></li>
+                </ul>
+
+                <div class="nav-images">
+                    <img id="instagram" class="con-img" src="pastroy-img/instagram.svg" alt="instagram">
+                    <img class="con-img" src="pastroy-img/facebook.svg" alt="facebook">
+                    <img id="telegram" class="con-img" src="pastroy-img/telegram.svg" alt="telegram">
+                </div>
+
+                <div class="download">
+                    <img src="pastroy-img/Store=Google Play, Style=Black.svg" alt="Play">
+                    <img src="pastroy-img/Group 453.svg" alt="app">
+                </div>
+            </nav>
+
+            <nav class="res-footer">
+                <a class="footer-item" href="#">Download App</a>
+                <button class="btn-cansel"><img src="pastroy-img/Frame 64 (1).svg" alt="cansel"></button>
+            </nav>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./src/js/cateogir.js"></script>
+</body>
